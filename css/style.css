@@ -1,0 +1,101 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px; 
+    border: 2px solid whitesmoke;
+    /* filter: grayscale(32); */
+    /* filter: dropshadow(2); */
+    /* drop-shadow(2);grayscale(2)
+        ;hue-rotate(2);invert(2);opacity(2);saturate(2);sepia(2); */
+}
+body{
+    background-image: linear-gradient(rgb(145, 202, 11) , rgb(5, 97, 92));
+    height: 100vh;
+}
+h1{
+    margin-top: 12px;
+    color: rgb(5, 43, 41);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 1031px;
+    border-radius: 20px;
+    margin: auto;
+    /* background-color: red; */
+    height: 60vh;
+    overflow-y: auto;
+    border: 2px solid rgb(1, 66, 21);
+    padding: 33px;
+    margin-bottom: 23px;
+}
+.container:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.message{
+    background-color: rgb(2, 51, 32);
+    width: 35%;
+    padding: 10px 1px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    max-width: 1085px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myname{
+    color: rgb(7, 136, 46);
+}
+.myname:hover{
+    color: rgb(19, 7, 179);
+}
+#messageInp{
+    width: 109%;
+    height: 38px;
+    margin-left: -3px;
+    border: 2px solid rgb(2, 51, 32);
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+    background-color: rgb(10, 134, 6);
+}
+#messageInp:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.btn{
+    height: 43px;
+    bottom: 20px;
+    width: 70px;
+    font-size: 22px;
+    border: 2px solid rgb(1, 66, 21);
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(10, 134, 6);
+    margin: 0 5px;
+}
+.btn:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    background-color: white;
+    color: rgb(10, 134, 6);
+    cursor: pointer;
+}
